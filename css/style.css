@@ -4,9 +4,10 @@
     border: 10px;
     z-index: 10;
 }
-#home {
+#home-titels {
     border: 1000px;
-    background-color: aqua;
+    background-color:#848484;
+    color: #ffffff;
     ;
 }
 
@@ -17,4 +18,8 @@ main.container-fluid {
 
 h1:first-of-type {
     padding-top: 10px;
+}
+
+body{
+    font-family: 'Montserrat Alternates';
 }
