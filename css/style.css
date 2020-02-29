@@ -1,0 +1,20 @@
+#navbar {
+    background-color: #000000;
+    position: fixed;
+    border: 10px;
+    z-index: 10;
+}
+#home {
+    border: 1000px;
+    background-color: aqua;
+    ;
+}
+
+
+main.container-fluid {
+    padding-top: 100px;
+}
+
+h1:first-of-type {
+    padding-top: 10px;
+}
