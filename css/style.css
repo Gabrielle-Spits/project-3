@@ -11,9 +11,15 @@
     border: 1000px;
     background-color:#848484;
     color: #ffffff;
+    padding-left: 100px;
     ;
 }
 
+#img1 {
+    width: 650px;
+    padding-right: 200px;
+    padding-top: 25px;
+}
 
 main.container-fluid {
     padding-top: 100px;
