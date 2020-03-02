@@ -13,7 +13,7 @@
           <a class="nav-link" id="nav-item" href="#">Features</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" id="nav-item" href="#">Pricing</a>
         </li>
       </ul>
     </div>
