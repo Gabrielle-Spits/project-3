@@ -14,7 +14,7 @@
                 iets is.
                 Ook kun je een leerzame game spelen en je aanmelden voor nog meer informatie.
             </p>
-            <p>Hopelijk helpt deze site je! </p> hoit
+            <p>Hopelijk helpt deze site je! </p>
             </div>
         </div>
     </div>
