@@ -4,9 +4,8 @@
     border: 10px;
     z-index: 10;
 }
-#nav-item {
+#nav-item.nav-link {
     color: red;
-    background-color: red;
 }
 #home-titels {
     border: 1000px;
