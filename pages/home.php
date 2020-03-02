@@ -16,6 +16,7 @@
             </p>
             <p>Hopelijk helpt deze site je! </p>
             </div>
+        <!-- hier onder kun je naar de pagina's -->
         </div>
     </div>
 </div>

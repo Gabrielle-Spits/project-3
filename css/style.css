@@ -4,7 +4,7 @@
     border: 10px;
     z-index: 10;
 }
-#nav-item.nav-link {
+.nav-link{
     color: red;
 }
 #home-titels {

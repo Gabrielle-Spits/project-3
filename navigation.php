@@ -10,10 +10,10 @@
           <a class="nav-link" href="./index.php?content=home"><img height="50px"  src="./img/logo.PNG"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="nav-item" href="#">Features</a>
+          <a class="nav-link" href="./index.php?content=informatie">informatie</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="nav-item" href="#">Pricing</a>
+          <a class="nav-link" href="#">Pricing</a>
         </li>
       </ul>
     </div>
