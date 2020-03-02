@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-6">
-            <img src="" alt="">
+            <img src="./img/home.PNG" alt="" width="550px">
         </div>
         <div class="col-6">
             <h1 id="home-titels">Welkomstwoord</h1>
@@ -18,4 +18,5 @@
             </div>
         </div>
     </div>
-    <div>
+</div>
+    
