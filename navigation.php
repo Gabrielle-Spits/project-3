@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="./index.php?content=home"><img height="50px"  src="./img/logo.PNG"></a>
+          <a class="nav-link" href="./index.php?content=home"><img height="50px"  src="./img/cloud_icon.png"></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./index.php?content=informatie">Informatie</a>
