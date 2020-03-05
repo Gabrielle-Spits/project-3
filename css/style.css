@@ -45,6 +45,10 @@ div.navbar-collapse {
     justify-content: space-between;
 }
 
+div.navbar-collapse {
+    justify-content: space-between;
+}
+
 .topnav-right {
     float: right;
 }

@@ -27,7 +27,7 @@
         
       </ul>
       <div class="topnav-right">
-        <ul>
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="./index.php?content=login">Login</a>
           </li>
