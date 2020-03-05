@@ -21,6 +21,8 @@
             <div>
             <p>voor de pagina informatie:</p>
             <a href="./index.php?content=informatie" class="btn btn-secondary" id="button">Informatie hier!</a>
+            <a href="./index.php?content=tips" class="btn btn-secondary" id="button">tips!</a>
+
             </div>
         </div>
     </div>
