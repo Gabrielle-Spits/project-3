@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="./index.php?content=home"><img height="25px"  src="./img/cloud_icon.png"></a>
+          <a class="nav-link" href="./index.php?content=home"><img height="25px" src="./img/cloud_icon.png"></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./index.php?content=informatie">Informatie</a>
@@ -24,13 +24,18 @@
         <li class="nav-item">
           <a class="nav-link" href="./index.php?content=contact">Contact</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./index.php?content=login">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./index.php?content=registreer">Registreer</a>
-        </li>
+        
       </ul>
+      <div class="topnav-right">
+        <ul>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.php?content=login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.php?content=registreer">Registreer</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 </div>

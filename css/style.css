@@ -29,3 +29,12 @@ main.container-fluid {
 body{
     font-family: 'Montserrat Alternates';
 }
+
+div.navbar-collapse {
+    justify-content: space-between;
+}
+
+.topnav-right {
+    float: right;
+}
+
