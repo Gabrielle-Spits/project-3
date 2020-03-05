@@ -13,7 +13,19 @@
           <a class="nav-link" href="./index.php?content=informatie">Informatie</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="./index.php?content=overzicht">Overzicht Game</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./index.php?content=game">Game</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./index.php?content=contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./index.php?content=login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./index.php?content=registreer">Registreer</a>
         </li>
       </ul>
     </div>
