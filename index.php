@@ -28,6 +28,7 @@
             include 'pages/home.php';
         }
     ?>
+    <?php include("./footer.php"); ?>
     </main>
     
     
