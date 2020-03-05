@@ -29,3 +29,12 @@ main.container-fluid {
 body{
     font-family: 'Montserrat Alternates';
 }
+#footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 101%;
+    text-align: center;
+    background-color: black;
+    color: red;
+}
