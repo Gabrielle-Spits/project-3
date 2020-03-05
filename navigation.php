@@ -10,7 +10,7 @@
           <a class="nav-link" href="./index.php?content=home"><img height="50px"  src="./img/logo.PNG"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./index.php?content=informatie">informatie</a>
+          <a class="nav-link" href="./index.php?content=informatie">Informatie</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
