@@ -17,9 +17,11 @@
                 </p>
                 <p>Hopelijk helpt deze site je! </p>
             </div>
-            <!-- hier onder kun je naar de pagina's -->
+            <!-- hier onder kun je naar de pagina informatie-->
+            <div>
+            <p>voor de pagina informatie:</p>
             <a href="./index.php?content=informatie" class="btn btn-secondary" id="button">Informatie hier!</a>
-            
+            </div>
         </div>
     </div>
 </div>

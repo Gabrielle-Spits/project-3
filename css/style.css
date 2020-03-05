@@ -25,9 +25,6 @@ main.container-fluid {
     padding-top: 100px;
 }
 
-h1:first-of-type {
-    padding-top: 10px;
-}
 
 body{
     font-family: 'Montserrat Alternates';
