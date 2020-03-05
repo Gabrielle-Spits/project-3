@@ -29,7 +29,7 @@
             include 'pages/home.php';
         }
     ?>
-    <div class="row" id="footer">
+    <div class="row m-0" id="footer">
     <?php include("./footer.php"); ?>
     </div>
     </main>
