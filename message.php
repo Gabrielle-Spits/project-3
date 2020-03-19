@@ -7,4 +7,4 @@ switch($_GET["alert"]){
         header("Refresh: 3; url=./index.php?content=registreren");
     break;
 }
-?>
+?> 

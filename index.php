@@ -22,9 +22,7 @@
         if (isset($_GET['content'])) {
             if (file_exists('pages/' . $_GET['content'] . '.php')) {
                 include 'pages/' . $_GET['content'] . '.php';
-            } else {
-                include 'pages/404.php';
-            }
+            } 
         } else {
             include 'pages/home.php';
         }
