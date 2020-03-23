@@ -1,10 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "project_3";
 
-//met deze functie maak je contact met de msql-server
-$conn = mysqli_connect($servername, $username , $password , $dbname);
+define("DBSERVERNAME" , "localhost");
+define("DBUSERNAME" , "gaby-spits");
+define("DBPASSWORD" , "BhJCm7Ew0v9eQfjV");
+define("DBNAME" , "project_3");
 
+$conn = mysqli_connect(DBSERVERNAME, DBUSERNAME , DBPASSWORD , DBNAME);
 ?>
