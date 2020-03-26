@@ -6,11 +6,11 @@ switch($_GET["alert"]){
             </div>';
         header("Refresh: 3; url=./index.php?content=registreer");
     break;
-    case 'email_bestaat' :
-        echo '<div class="alert alert-danger w-50 mx-auto mt-5" role="alert">
-                Deze email bestaat al. Probeer het met een ander email adres
-            </div>';
-        header("Refresh: 3; url=./index.php?content=registreer");
+    case'email-bestaat' : 
+        echo '<div class="alert alert-primary w-50 mx-auto mt-5" role="alert">
+        email bestaat al probeer een andere 
+    </div>';
+    header("Refresh: 3; url=./index.php?content=registreer");
     break;
     case 'registreren-error':
         echo '<div class="alert alert-warning w-50 mx-auto mt-5" role="alert">
