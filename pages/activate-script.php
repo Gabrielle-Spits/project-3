@@ -13,6 +13,10 @@ if(empty($_POST["password"]) || (empty($_POST["passwordcheck"]))){
     header("Location: ./index.php?content=message&alert=geen-match-wachtwoord&id=$id&pwh=$pwh");
 } else{
     
+    $sql = "SELECT * FROM `registreren_blok3` WHERE `id` = $id AND `wachtwoord` = '$pwh'";
 
+    $result = mysqli_query($conn, $sql);
+
+    echo mysqli_num_rows($result);
 }
 ?>
