@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico"/>
-    <title>ADHD</title>
+    <title>ADHDEnzo Inc</title>
 </head>
 <body>
 <?php include("./navigation.php"); ?>
