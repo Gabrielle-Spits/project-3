@@ -10,4 +10,4 @@
             <button type="submit" class="btn btn-primary">registreren</button>
         </form>
     </div>
-</div>
+</div>  

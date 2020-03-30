@@ -16,9 +16,6 @@
           <a class="nav-link" href="./index.php?content=tips">Tips</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./index.php?content=overzicht">Overzicht Game</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="./index.php?content=game">Game</a>
         </li>
         <li class="nav-item">
