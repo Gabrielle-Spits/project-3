@@ -42,7 +42,7 @@ switch($_GET["alert"]){
     break;
     case 'geen-match-wachtwoord':
         echo '<div class="alert alert-danger w-50 mx-auto mt-5" role="alert">
-        u heeft twee keer hetzelde wachtwoord ingevoergd probeer het opnieuw
+        u heeft twee keer een ander wachtwoord ingevoerd probeer het opnieuw
     </div>';
     header("Refresh: 3; url=./index.php?content=activate&id=$id&pwh=$pwh");
     break;

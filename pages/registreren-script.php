@@ -61,7 +61,7 @@ else{
            <h3>Beste gebruiker,</h3>
            <p>U heeft u onlangs geregistreerd bij http://www.project-3.org</p>
            <p>Klik <a href="http://www.project-3.org/index.php?content=activate&id='.
-           $id . '&pwh= '. $password_hash .'">hier</a> voor het activeren en wijzigen van het wachtwoord van u acount</p>
+           $id . '&pwh='. $password_hash .'">hier</a> voor het activeren en wijzigen van het wachtwoord van u acount</p>
             <p>bedankt voor het registreren</p>
            <p>met vriendelijke groet,</p>
             <p>team ADHDENZO inc</p>
@@ -80,6 +80,7 @@ else{
         $headers .= "Bcc: root@adhdEnzo.com";
 
         mail($to,$subject,$message,$headers);
+    
 
         header("Location: ./index.php?content=message&alert=registreren-goed");
      }else{
