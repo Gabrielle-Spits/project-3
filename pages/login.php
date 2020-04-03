@@ -1,11 +1,19 @@
-<form  action="./index.php?content=registreren_script" method="post">
-    <div class="row">
-        <div class="form-group col-8">
-            <label for="email">email</label>
-            <input type="email" class="form-control" id="email" placeholder="email" name="email">
-        </div>
-        <div class="form-group col-md-6">
-            <label for="wachtwoord">wachtwoord</label>
-            <input type="wachtwoord" class="form-control" id="wachtwoord" placeholder="wachtwoord" name="wachtwoord">
-        </div>
-</form>
+<div class="container mt-5">
+<div class="row">
+    <div class="col-6">
+        <form action="./index.php?content=login-script" method="post">
+            <div class="form-group">
+                <label for="exampleInputEmail">Email address</label>
+                <input name="email" type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">uw email is veilig</small>
+            </div>
+            <div class="form-group">
+                    <label for="Inputpassword">wachtwoord</label>
+                    <input type="password" class="form-control" id="InputPassword" aria-describedby="password"
+                        name="password">
+                    <small id="password" class="form-text text-muted">vul u wachtwoord in</small>
+                </div>
+            <button type="submit" class="btn btn-primary">login</button>
+        </form>
+    </div>
+</div>  

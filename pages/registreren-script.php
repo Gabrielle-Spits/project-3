@@ -19,20 +19,21 @@ else{
        header("Location: ./index.php?content=message&alert=email-bestaat");
 
    }else{
-        //email toevoegen aan de tabel
-        $password = "geheim";
-        $password_hash = password_hash($password,PASSWORD_BCRYPT);
-
+     // maakt een password hash en haalt de tijd en datum op en geeft dit terug in een array
+        $array = mk_password_hash_from_microtime();
+        
         $sql = "INSERT INTO `registreren_blok3`
          (`id`, 
          `email`,
          `wachtwoord`, 
-         `rollen`) 
+         `rollen`,
+         `geactiveerd`) 
          VALUES 
          (NULL, 
          '$email', 
-         '$password_hash', 
-         'customer')";
+         '{$array["password_hash"]}', 
+         'customer',
+          0)";
 
      if (mysqli_query($conn,$sql)){
          $id= mysqli_insert_id($conn);
@@ -58,10 +59,15 @@ else{
             <title>Hello, world!</title>
           </head>
           <body>
+          <tr>
+          <td>
+           '. $array["date"]. ' ' . $array["time"] .'
+           <td>
+           <tr>
            <h3>Beste gebruiker,</h3>
            <p>U heeft u onlangs geregistreerd bij http://www.project-3.org</p>
            <p>Klik <a href="http://www.project-3.org/index.php?content=activate&id='.
-           $id . '&pwh='. $password_hash .'">hier</a> voor het activeren en wijzigen van het wachtwoord van u acount</p>
+           $id . '&pwh='. $array['password_hash'] .'">hier</a> voor het activeren en wijzigen van het wachtwoord van u acount</p>
             <p>bedankt voor het registreren</p>
            <p>met vriendelijke groet,</p>
             <p>team ADHDENZO inc</p>

@@ -46,6 +46,35 @@ switch($_GET["alert"]){
     </div>';
     header("Refresh: 3; url=./index.php?content=activate&id=$id&pwh=$pwh");
     break;
+    case 'no-id-pwh-match':
+        echo '<div class="alert alert-danger w-50 mx-auto mt-5" role="alert">
+        u bent niet geregistreerd in de database, u wordt doorgestuurd naar de registratiepagina
+    </div>';
+    header("Refresh: 3; url=./index.php?content=registreren");
+    break;
+    case 'update-succes':
+        echo '<div class="alert alert-success w-50 mx-auto mt-5" role="alert">
+        u bent met succes geregistreerd u wordt doorgestuurd naar de login page
+    </div>';
+    header("Refresh: 3; url=./index.php?content=login");
+    break;
+    case 'update-faal':
+        echo '<div class="alert alert-danger w-50 mx-auto mt-5" role="alert">
+            het registratieproces is niet gelukt kies een niew wachtwoord
+    </div>';
+    header("Refresh: 3; url=./index.php?content=activate&id=$id&pwh=$pwh");
+    break;
+    case 'al-geactiveerd':
+        echo '<div class="alert alert-danger w-50 mx-auto mt-5" role="alert">
+        u acount is al actief, log in met uw zelfgekozen wachtwoord en emailadres.
+    </div>';
+    header("Refresh: 3; url=./index.php?content=login");
+    case 'no-match-pwh':
+        echo '<div class="alert alert-danger w-50 mx-auto mt-5" text-center role="alert">
+        u activatielink gegevens zijn niet correct, registreer opnieuw
+    </div>';
+    header("Refresh: 3; url=./index.php?content=registreer");
+    break;
     default: 
         header("Location: ./index.php?content=home");
     break;
