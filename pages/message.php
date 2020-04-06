@@ -2,6 +2,7 @@
 $alert= (isset($_GET["alert"]))? $_GET["alert"]: "default";
 $id= (isset($_GET["id"]))? $_GET["id"]: "";
 $pwh= (isset($_GET["pwh"]))? $_GET["pwh"]: "";
+$email = (isset($_GET["email"]))? $_GET["email"]: "";
 
 switch($_GET["alert"]){
     case 'no-email' :
@@ -74,6 +75,24 @@ switch($_GET["alert"]){
         u activatielink gegevens zijn niet correct, registreer opnieuw
     </div>';
     header("Refresh: 3; url=./index.php?content=registreer");
+    break;
+    case 'login-form-empty':
+        echo '<div class="alert alert-danger w-50 mx-auto mt-5" text-center role="alert">
+        u heeft een van beide velden niet ingevuld, probeer het opnieuw.
+    </div>';
+    header("Refresh: 3; url=./index.php?content=login");
+    break;
+    case 'email-onbekend':
+        echo '<div class="alert alert-danger w-50 mx-auto mt-5" text-center role="alert">
+        dit email bestaat niet in onze database, probeer het opnieuw
+    </div>';
+    header("Refresh: 3; url=./index.php?content=login");
+    break;
+    case 'niet-geactiveerd':
+        echo '<div class="alert alert-danger w-50 mx-auto mt-5" text-center role="alert">
+        u acount is nog niet geactiveerd. check uw email ' .$email. ' voor het klikken op de activatielink
+    </div>';
+    header("Refresh: 3; url=./index.php?content=login");
     break;
     default: 
         header("Location: ./index.php?content=home");

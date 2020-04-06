@@ -8,10 +8,10 @@
     color: red;
 }
 #home-titels {
-    border: 1000px;
+    border: 100px;
     background-color:#848484;
     color: #ffffff;
-    padding-left: 100px;
+    padding-left: 25px;
     ;
 }
 
@@ -31,7 +31,7 @@ body{
 
 }
 #footer{
-    position: fixed;
+position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
