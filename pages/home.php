@@ -4,7 +4,7 @@
 
 // unset($_SESSION["id"]);
 // unset($_SESSION["rollen"]);
-echo session_id();
+// echo session_id();
 // echo "<hr>";
 // // session_unset();
 // // session_destroy();
