@@ -1,4 +1,4 @@
-<?php session_start() ?>
+<?php session_start(); session_gc(); ?>
 
 <div class="col-12" id="navbar">
   <nav class="navbar navbar-expand-lg">
@@ -33,15 +33,20 @@
       </ul>
       <div class="topnav-right">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.php?content=login">Login</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./index.php?content=registreer">Registreer</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./index.php?content=logout">uitloggen</a>
-          </li>
+          <?php
+          if (isset($_SESSION["id"])) {
+          echo '<li class="nav-item '; echo '">
+                  <a class="nav-link" href="./index.php?content=logout">uitloggen</a>
+                </li>';
+          } else {
+          echo '<li class="nav-item '; echo '">
+                  <a class="nav-link" href="./index.php?content=login">Login</a>
+                </li>
+                <li class="nav-item '; echo '">
+                  <a class="nav-link" href="./index.php?content=registreer">Registreer</a>
+                </li>';
+          }
+          ?>s
         </ul>
       </div>
     </div>
