@@ -5,7 +5,7 @@ unset($_SESSION["rollen"]);
 
 // Verwijder het session_start bestand in c:/wamp64/tmp
 
-session_destroy()();
+session_destroy();
 
 header("Location: ./index.php?content=message&alert=logout");
 
