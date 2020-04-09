@@ -5,13 +5,13 @@
 // unset($_SESSION["id"]);
 // unset($_SESSION["rollen"]);
 echo session_id();
-echo "<hr>";
-// session_unset();
-// session_destroy();
+// echo "<hr>";
+// // session_unset();
+// // session_destroy();
 
-echo "Mijn gebruikersrol is: " . $_SESSION["rollen"];
-echo "<hr>";
-echo "Mijn id is: " . $_SESSION["id"];
+// echo "Mijn gebruikersrol is: " . $_SESSION["rollen"];
+// echo "<hr>";
+// echo "Mijn id is: " . $_SESSION["id"];
 ?>
 
 <div class="container">
