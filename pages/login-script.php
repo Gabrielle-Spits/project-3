@@ -1,5 +1,5 @@
 <?php 
-    var_dump($_POST);
+    // var_dump($_POST);
     include("./pages/connect_db.php");
     include("./pages/functions.php");
 

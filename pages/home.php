@@ -1,6 +1,6 @@
 <?php
 
-var_dump($_SESSION);
+// var_dump($_SESSION);
 
 // unset($_SESSION["id"]);
 // unset($_SESSION["rollen"]);
