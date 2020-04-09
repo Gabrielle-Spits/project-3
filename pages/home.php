@@ -30,4 +30,6 @@ session_start();
 var_dump($_SESSION);
 
 echo "Mijn gebruikersrol is: " . $_SESSION["rollen"];
+echo "<hr>";
+echo "Mijn id is: " . $_SESSION["rollen"];
 ?>
