@@ -3,7 +3,7 @@ var_dump($_SESSION);
 
 echo "Mijn gebruikersrol is: " . $_SESSION["rollen"];
 echo "<hr>";
-echo "Mijn id is: " . $_SESSION["rollen"];
+echo "Mijn id is: " . $_SESSION["id"];
 ?>
 
 <div class="container">
