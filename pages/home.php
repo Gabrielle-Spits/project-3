@@ -24,3 +24,10 @@
         </div>
     </div>
 </div>
+
+<?php
+session_start();
+var_dump($_SESSION);
+
+echo "Mijn gebruikersrol is: " . $_SESSION["rollen"];
+?>
