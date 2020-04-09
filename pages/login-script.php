@@ -31,7 +31,6 @@
                                     }else{
                                         //password match
                                         
-                                        session_start();
                                         $_SESSION["id"] = $record["id"];
                                         $_SESSION["rollen"] = $record["rollen"];
 

@@ -1,5 +1,13 @@
 <?php
+
 var_dump($_SESSION);
+
+// unset($_SESSION["id"]);
+// unset($_SESSION["rollen"]);
+echo session_id();
+echo "<hr>";
+// session_unset();
+// session_destroy();
 
 echo "Mijn gebruikersrol is: " . $_SESSION["rollen"];
 echo "<hr>";

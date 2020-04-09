@@ -1,4 +1,4 @@
-
+<?php session_start() ?>
 
 <div class="col-12" id="navbar">
   <nav class="navbar navbar-expand-lg">
