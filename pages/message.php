@@ -94,6 +94,12 @@ switch($_GET["alert"]){
     </div>';
     header("Refresh: 3; url=./index.php?content=login");
     break;
+    case 'no-pw-match':
+        echo '<div class="alert alert-danger w-50 mx-auto mt-5" text-center role="alert">
+        u ingevulde wachtwoord voor dit emailadres ' .$email. ' is niet correct,probeer het opnieuw
+    </div>';
+    header("Refresh: 3; url=./index.php?content=login");
+    break;
     default: 
         header("Location: ./index.php?content=home");
     break;

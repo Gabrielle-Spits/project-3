@@ -12,6 +12,7 @@
     background-color:#848484;
     color: #ffffff;
     padding-left: 25px;
+    padding-right: 50px;
     ;
 }
 
@@ -51,4 +52,9 @@ div.navbar-collapse {
 
 .topnav-right {
     float: right;
+}
+
+#navbar-dropdown{
+    background-color: black;
+    color:red ;
 }

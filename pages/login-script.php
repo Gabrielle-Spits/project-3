@@ -20,10 +20,28 @@
        }else{
             $record = mysqli_fetch_assoc($result);
 
-            var_dump($record["geactiveerd"]);
+            //var_dump($record["geactiveerd"]);
 
             if(!$record["geactiveerd"]){
+                //niet geactiveerd
                 header("Location: ./index.php?content=message&alert=niet-geactiveerd&email=$email");
+            }elseif(!password_verify($password,$record["wachtwoord"])){
+                //geen match wachtwoord
+                header("Location: ./index.php?content=message&alert=no-pw-match&email=$email");
+            }else{
+                //password match
+
+                
+
+                //'admin','super-admin','moderator','root','customer'
+                switch($record["rollen"]){
+                    case 'customer':
+                    header("Location: ./index.php?content=home");
+                break;
+                default:
+                header("Location: ./index.php?content=home");
+                break;
+                }
             }
        };
 

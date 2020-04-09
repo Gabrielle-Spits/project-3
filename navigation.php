@@ -1,3 +1,5 @@
+
+
 <div class="col-12" id="navbar">
   <nav class="navbar navbar-expand-lg">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -12,9 +14,15 @@
         <li class="nav-item">
           <a class="nav-link" href="./index.php?content=informatie">Informatie</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./index.php?content=tips">Tips</a>
-        </li>
+        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        tips
+                                </a>
+                                <div class="dropdown-menu" id="navbar-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" id="navbar-dropdown" href="./index.php?content=tips-hebt">als je adhd hebt</a>
+                                        <a class="dropdown-item" id="navbar-dropdown" href="./index.php?content=tips-kent">als je ieamnd kent met adhd</a>
+                                </div>
+                        </li>
         <li class="nav-item">
           <a class="nav-link" href="./index.php?content=game">Game</a>
         </li>
@@ -30,6 +38,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./index.php?content=registreer">Registreer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.php?content=logout">uitloggen</a>
           </li>
         </ul>
       </div>
