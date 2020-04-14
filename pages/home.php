@@ -29,11 +29,8 @@
             </div>
             <!-- hier onder kun je naar de pagina informatie-->
             <div>
-            <p>voor de pagina informatie:</p>
+            <p>Voor de pagina informatie:</p>
             <a href="./index.php?content=informatie" class="btn btn-secondary" id="button">Informatie hier!</a>
-            <p>voor de pagina tips</p>
-            <a href="./index.php?content=tips" class="btn btn-secondary" id="button">tips!</a>
-
             </div>
         </div>
     </div>

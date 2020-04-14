@@ -1,60 +1,167 @@
+/*navbar */
 #navbar {
-    background-color: #000000;
-    position: fixed;
-    border: 10px;
-    z-index: 10;
+background-color: #000000;
+position: fixed;
+border: 10px;
+z-index: 10;
 }
 .nav-link{
-    color: red;
-}
-#home-titels {
-    border: 100px;
-    background-color:#848484;
-    color: #ffffff;
-    padding-left: 25px;
-    padding-right: 50px;
-    ;
-}
-
-#img1 {
-    width: 650px;
-    padding-right: 200px;
-    padding-top: 25px;
-}
-
-main.container-fluid {
-    padding-top: 100px;
-}
-
-
-body{
-    font-family: 'Montserrat Alternates';
-
-}
-#footer{
-position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-    text-align: center;
-    background-color: black;
-    color: red;
-}
-
-
-div.navbar-collapse {
-    justify-content: space-between;
-}
-
-div.navbar-collapse {
-    justify-content: space-between;
-}
-
-.topnav-right {
-    float: right;
+color:#ff3533;
 }
 
 #navbar-dropdown{
-    background-color: black;
-    color:red ;
+background-color: black;
+color:#ff3533 ;
+}
+
+/*pagina home*/
+#home-titels {
+border: 100px;
+background-color:#848484;
+color: #ffffff;
+padding-left: 100px;
+}
+#img1 {
+width: 650px;
+padding-right: 200px;
+padding-top: 25px;
+}
+
+/* pagina informatie */
+#h2-tussen-kort{
+border: 50px;
+background-color:#848484;
+color: #ffffff;
+padding-left: 250px;
+}
+
+#h2-tussen-normaal{
+border: 50px;
+background-color:#848484;
+color: #ffffff;
+padding-left: 65px;
+}
+
+#h2-tussen-lang{
+border: 50px;
+background-color:#848484;
+color: #ffffff;
+padding-left: 125px;
+}
+
+#h3-informatie-tussen{
+background-color:#ff3533;
+color: #ffffff;
+padding-left: 250px;
+}
+
+
+/* pagina tips hebt*/
+/*pagina tips kent*/
+#titel-h2-hebt{
+border: 100px;
+background-color:#848484;
+color: #ffffff;
+padding-left: 600px;
+}
+#tussen-h3-kort{
+border: 100px;
+background-color:#ff3533;
+color: #ffffff;
+padding-left: 150px;
+}
+
+#tussen-h3-normaal{
+border: 100px;
+background-color:#ff3533;
+color: #ffffff;
+padding-left: 200px;
+}
+
+#tussen-h3-lang{
+border: 100px;
+background-color:#ff3533;
+color: white;
+padding-left: 60px;
+}
+
+#tussen-h3-lang-2{
+border: 100px;
+background-color:#ff3533;
+color: #ffffff;
+padding-left: 125px;
+}
+/*game*/
+#game-handleidng{
+border: 100px;
+background-color:#ff3533;
+color: #ffffff;
+padding-left: 75px;
+}
+
+/* registreren */
+#registreren-titel{
+border: 100px;
+background-color:#848484;
+color: #ffffff;
+padding-left: 600px;
+}
+
+#registreren-kop{
+   border: 100px;
+   background-color: #ff3533;
+   color: #ffffff;
+   padding-left: 100px;
+}
+
+/*activeren wachtwoord */
+#wachtwoord-aanmaken{
+   border: 100px;
+   background-color: #848484;
+   color: #ffffff;
+   padding-left: 450px;
+}
+
+/*login-page*/
+#login-titel{
+   border: 100px;
+   background-color: #848484;
+   color: #ffffff;
+   padding-left: 500px;
+}
+
+
+
+
+/* jesse debuggen */
+main.container-fluid {
+padding-top: 100px;
+}
+div.navbar-collapse {
+justify-content: space-between;
+}
+
+div.navbar-collapse {
+justify-content: space-between;
+}
+
+.topnav-right {
+float: right;
+}
+
+/* lettertype */
+body{
+font-family: 'Montserrat Alternates';
+
+
+}
+/* footer */
+#footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+text-align: center;
+background-color: black;
+color:#ff3533;
 }

@@ -1,10 +1,11 @@
 <?php
 
  if(empty($_POST["email"])) {
-       
+   //email leeg   
     header("Location: ./index.php?content=message&alert=no-email");
 }
 else{
+  //conectie maken met functies en connecten met database
     include("./pages/connect_db.php");
     include("./pages/functions.php");
 
@@ -21,7 +22,7 @@ else{
    }else{
      // maakt een password hash en haalt de tijd en datum op en geeft dit terug in een array
         $array = mk_password_hash_from_microtime();
-        
+     //voeg toe aan de database   
         $sql = "INSERT INTO `registreren_blok3`
          (`id`, 
          `email`,

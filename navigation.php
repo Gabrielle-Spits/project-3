@@ -16,11 +16,11 @@
         </li>
         <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        tips
+                                        Tips
                                 </a>
                                 <div class="dropdown-menu" id="navbar-dropdown" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" id="navbar-dropdown" href="./index.php?content=tips-hebt">als je adhd hebt</a>
-                                        <a class="dropdown-item" id="navbar-dropdown" href="./index.php?content=tips-kent">als je ieamnd kent met adhd</a>
+                                        <a class="dropdown-item" id="navbar-dropdown" href="./index.php?content=tips-hebt">Als je ADHD hebt</a>
+                                        <a class="dropdown-item" id="navbar-dropdown" href="./index.php?content=tips-kent">Als je iemand kent met ADHD</a>
                                 </div>
                         </li>
         <li class="nav-item">
