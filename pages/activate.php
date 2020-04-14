@@ -5,7 +5,7 @@ if(!(isset($_GET["content"]) && isset($_GET["id"]) && isset($_GET["pwh"]))){
 ?>
 <div class="row">
     <div class="col-12">
-        <h2 id="wachtwoord-aanmaken"> het aanmaken van een wachtwoord voor u acount</h2>
+        <h2 id="wachtwoord-aanmaken"> Het aanmaken van een wachtwoord voor u acount</h2>
     </div>
 </div>
 <div class="container">

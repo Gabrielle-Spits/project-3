@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-12">
-        <h1 id="login-titel">inloggen op uw acount</h1>
+        <h1 id="login-titel">Inloggen op uw account</h1>
     </div>
 </div>
 

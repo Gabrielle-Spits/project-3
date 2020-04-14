@@ -18,6 +18,6 @@
     </div>
     <div class="col-6">
         <h2 id="registreren-kop">registratieproces</h2>
-        <p>de email wordt opgeslagen in een database waardoor u een mailtje krijgt met een activatielink hier klikt u op dan kiest u uw wachtwoord en klikt op activeren dan is u acount geactiveerd en kunt u inloggen wij kunnen uw wachtwoord niet zien, want deze is gehasht</p>
+        <p>Het emailadres wordt opgeslagen in een database waardoor u een mailtje krijgt met een activatielink hier klikt u op dan kiest u uw wachtwoord en klikt op activeren dan is u acount geactiveerd en kunt u inloggen wij kunnen uw wachtwoord niet zien, want deze is gehasht</p>
     </div>
 </div>  
