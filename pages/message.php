@@ -96,7 +96,7 @@ switch($_GET["alert"]){
     break;
     case 'no-pw-match':
         echo '<div class="alert alert-danger w-50 mx-auto mt-5" text-center role="alert">
-        U ingevulde wachtwoord voor dit emailadres ' .$email. ' is niet correct,probeer het opnieuw
+        U ingevulde wachtwoord voor dit emailadres ' .$email. ' is niet correct,probeer het opnieuw.
     </div>';
     header("Refresh: 3; url=./index.php?content=login");
     break;
